@@ -4,6 +4,6 @@ key generate
 
 php artisan tinker
 
-App\Models\User::create(['name' => 'deneme', 'email' => 'deneme@oguzcandemircan.com', 'password' => bcrypt('123456')]);
+App\Models\User::create(['name' => 'deneme', 'email' => 'deneme@deneme.com', 'password' => bcrypt('123456')]);
 
 exit
